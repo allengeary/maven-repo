@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>perfectoMobile</groupId>
+  <artifactId>deviceFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20151203.212503</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20151203212503</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20151203.212503-2</value>
+        <updated>20151203212503</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20151203.212503-2</value>
+        <updated>20151203212503</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
