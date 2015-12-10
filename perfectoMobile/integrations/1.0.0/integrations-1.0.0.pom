@@ -5,6 +5,17 @@
    <version>1.0.0</version>
    <name>Moreland Labs Integrations</name>
    <description>The root projects for Moreland Labs Integrations</description>
+   <repositories>
+      <repository>
+         <id>morelandlabs</id>
+         <name>Moreland Labs LLC</name>
+         <url>https://github.com/allengeary/maven-repo/raw/master/</url>
+         <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+         </snapshots>
+      </repository>
+   </repositories>
    <distributionManagement>
       <repository>
          <id>internal.repo</id>

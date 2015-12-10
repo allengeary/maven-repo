@@ -4,6 +4,22 @@
    <artifactId>deviceFramework</artifactId>
    <version>1.0.0</version>
    <name>deviceFramework</name>
+   <repositories>
+      <repository>
+         <id>morelandlabs</id>
+         <name>Moreland Labs LLC</name>
+         <url>https://github.com/allengeary/maven-repo/raw/master/</url>
+         <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+         </snapshots>
+      </repository>
+      <repository>
+         <id>perfectomobile</id>
+         <name>Perfecto mobile</name>
+         <url>http://repository-perfectomobile.forge.cloudbees.com/public</url>
+      </repository>
+   </repositories>
    <distributionManagement>
       <repository>
          <id>internal.repo</id>
@@ -38,13 +54,6 @@
          </plugin>
       </plugins>
    </build>
-   <repositories>
-      <repository>
-         <id>perfectomobile</id>
-         <name>Perfecto mobile</name>
-         <url>http://repository-perfectomobile.forge.cloudbees.com/public</url>
-      </repository>
-   </repositories>
    <dependencies>
       <dependency>
          <groupId>commons-logging</groupId>
@@ -80,17 +89,6 @@
          <groupId>com.perfectomobile</groupId>
          <artifactId>http-client</artifactId>
          <version>3.12.0.11</version>
-      </dependency>
-      <dependency>
-         <groupId>org.slf4j</groupId>
-         <artifactId>slf4j-api</artifactId>
-         <version>1.7.10</version>
-      </dependency>
-      <dependency>
-         <groupId>dom4j</groupId>
-         <artifactId>dom4j</artifactId>
-         <version>1.6.1</version>
-         <scope>runtime</scope>
       </dependency>
       <dependency>
          <groupId>perfectoMobile</groupId>
