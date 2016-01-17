@@ -85,5 +85,10 @@
          <artifactId>gestures</artifactId>
          <version>1.0.0</version>
       </dependency>
+      <dependency>
+         <groupId>org.boofcv</groupId>
+         <artifactId>boofcv</artifactId>
+         <version>0.12</version>
+      </dependency>
    </dependencies>
 </project>
