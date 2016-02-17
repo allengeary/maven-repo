@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>perfectoMobile</groupId>
+	<artifactId>perfectoLibraries</artifactId>
+	<version>1.0.0</version>
+	<name>Perfecto Projects</name>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>integrations</module>
+		<module>pageManagement</module>
+		<module>gestures</module>
+		<module>serviceProviderInterface</module>
+		<module>deviceFramework</module>
+		<module>deviceMaintenance</module>
+		<module>imagingExtensions</module>
+	</modules>
+	
+	<repositories>
+		<repository>
+			<id>morelandlabs</id>
+			<name>Moreland Labs LLC</name>
+			<url>https://github.com/allengeary/maven-repo/raw/master/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Temporary Staging Repository</name>
+			<url>file:../../maven-repo</url>
+		</repository>
+	</distributionManagement>
+</project>
